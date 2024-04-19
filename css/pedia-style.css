@@ -13,6 +13,8 @@ body {
 
 #boxes {
   margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #boxes .box {
@@ -47,6 +49,14 @@ footer {
     width: 95%;
   }
 
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+  #boxes .box {
+    float: none;
+    text-align: center;
+    width: 95%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1140px) {

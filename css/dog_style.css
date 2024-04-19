@@ -1,0 +1,86 @@
+body {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+}
+
+article {
+  flex-basis: 680px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 10px;
+}
+
+.item {
+  min-height: 150px;
+  flex-basis: 200px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.item p {
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+.item h2 {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Boxes */
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 95%;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 55px;
+  padding: 10px;
+}
+
+.box .highlight {
+  color: rgb(221, 57, 57);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+  }
+
+@media (max-width: 768px) {
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width: 95%;
+      }
+    }
+
+@media (min-width: 768px) and (max-width: 1140px) {
+  #boxes .box {
+    text-align: center;
+    width: 45%;
+  }
+}
