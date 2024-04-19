@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   var script = document.createElement('script');
-  script.src = '/slideshow.js';
+  script.src = 'slideshow.js';
   document.body.appendChild(script);
 });
 
