@@ -1,3 +1,7 @@
+body {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
 .slideshow-container {
   position: relative;
   width: 100%;
@@ -50,4 +54,11 @@
 .mySlides img {
   width: 100%; 
   height: auto; 
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #f8f9fa;
 }
