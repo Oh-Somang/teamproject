@@ -55,6 +55,7 @@ footer {
   margin-top: 40px;
   padding: 20px 0;
   background-color: #f8f9fa;
+  bottom: 0;
 }
 
 @media (max-width: 768px) {
