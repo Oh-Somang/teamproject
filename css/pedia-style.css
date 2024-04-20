@@ -2,6 +2,10 @@ body {
   font-family: 'Love Ya Like A Sister', cursive;
 }
 
+p {
+  text-align: center;
+}
+
 #boxes .container h1 {
   font-size: 50px;
   text-align: center;
@@ -54,13 +58,11 @@ footer {
 }
 
 @media (max-width: 768px) {
-  
   #boxes .box {
     float: none;
     text-align: center;
     width: 95%;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 1140px) {
