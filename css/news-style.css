@@ -1,4 +1,4 @@
-body {
+* {
   font-family: 'Love Ya Like A Sister', cursive;
 }
 
@@ -20,3 +20,73 @@ footer {
   padding: 20px 0;
   background-color: #f8f9fa;
 }
+
+.article_list h3 {
+  padding: 30px;
+}
+
+.article_list {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.sub-tit {
+  font-size: 45px;
+}
+
+.thumb {
+  float: left;
+  margin-right: 20px;
+}
+
+.img_box {
+  width: 171px;
+  height: 96px;
+}
+
+dl {
+  float: left;
+  width: calc(100% - 191px); /* Image width + margin */
+}
+
+dt,
+dd {
+  margin-bottom: 10px;
+}
+
+dd {
+  font-size: 13px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.art_list .text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.thumb a,
+dt a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.thumb a {
+  font-weight: bolder;
+}
+
+.thumb .text {
+  font-weight: lighter;
+}
+
+.thumb a,
+dt a:hover {
+  color: rgb(123, 119, 119);
+}
+
