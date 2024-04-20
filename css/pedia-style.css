@@ -34,6 +34,18 @@ body {
   text-align: center;
 }
 
+header {
+  margin-bottom: 20px;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
 footer {
   text-align: center;
   margin-top: 40px;
