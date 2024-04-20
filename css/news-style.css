@@ -14,13 +14,6 @@ header {
   font-size: 1.1em;
 }
 
-footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 20px 0;
-  background-color: #f8f9fa;
-}
-
 .article_list h3 {
   padding: 30px;
 }
@@ -90,3 +83,10 @@ dt a:hover {
   color: rgb(123, 119, 119);
 }
 
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  clear: both;
+}
