@@ -80,7 +80,7 @@ footer {
   margin-top: 40px;
   padding: 20px 0;
   background-color: #f8f9fa;
-  bottom: 0;
+  clear: both;
 }
 
 @media (max-width: 768px) {
@@ -97,3 +97,4 @@ footer {
     width: 45%;
   }
 }
+
